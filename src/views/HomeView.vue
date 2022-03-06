@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from "@/components/TheWelcome.vue";
+import SharedHeader from '../components/SharedHeader.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <SharedHeader />
   </main>
 </template>
