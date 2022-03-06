@@ -1,5 +1,9 @@
 {
   "files": [],
+  "compilerOptions": {
+    "strict": true,
+    "plugins": [{"name": "vue-ts-plugin"}]
+  },
   "references": [
     {
       "path": "./tsconfig.vite-config.json"
