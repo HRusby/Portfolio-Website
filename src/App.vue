@@ -1,3 +1,10 @@
+<style>
+  html {
+    background-color: #0D1117; /* Github Dark Bg */
+    color: white;
+    height: 4vh;
+  }
+</style>
 <script setup lang="ts">
   import { RouterView } from 'vue-router'
   import SharedHeader from "./components/SharedHeader.vue"
@@ -5,9 +12,7 @@
 </script>
 
 <template>
-  <header>
-    <SharedHeader />
-  </header>
+  <SharedHeader />
   <RouterView />
 </template>
 
