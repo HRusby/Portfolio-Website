@@ -4,8 +4,10 @@
 </script>
 
 <template>
-  <main>
-    <HomeCard :imgsrc="logo">Me</HomeCard>
-    <HomeCard :imgsrc="logo">Blog</HomeCard>
+  <main class="flex">
+    <HomeCard :imgsrc="logo">
+      <h1>Test</h1>
+      <p>Some more Content</p>
+    </HomeCard>
   </main>
 </template>
