@@ -1,9 +1,4 @@
 <style>
-  html {
-    background-color: #0D1117; /* Github Dark Bg */
-    color: white;
-    height: 4vh;
-  }
 </style>
 <script setup lang="ts">
   import { RouterView } from 'vue-router'
@@ -15,4 +10,3 @@
   <SharedHeader />
   <RouterView />
 </template>
-
