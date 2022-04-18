@@ -1,8 +1,8 @@
 {
-  "files": [],
   "compilerOptions": {
     "strict": true,
-    "plugins": [{"name": "vue-ts-plugin"}]
+    "plugins": [{"name": "vue-ts-plugin"}],
+    "resolveJsonModule": true,
   },
   "references": [
     {
