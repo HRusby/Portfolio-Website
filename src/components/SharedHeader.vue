@@ -5,7 +5,7 @@
   }
 </style>
 <template>
-  <header class="sticky top-0 w-screen justify-between px-4 py-4 bg-highlight inline-block">
+  <header class="sticky top-0 w-screen justify-between px-4 py-4 bg-highlight inline-block shadow-xl">
     <RouterLink to="/" class="text-2xl font-medium float-left">
       <h3 style="display:inline">Harry<span style="color:red">.</span>Rusby</h3>
     </RouterLink>

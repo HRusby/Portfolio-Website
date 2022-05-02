@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <main class="flex">
+  <main class="flex justify-center">
     <HomeCard :imgsrc="logo">
       <h1>Test</h1>
       <p>Some more Content</p>
