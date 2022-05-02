@@ -17,7 +17,8 @@ async function markdownToHtml() {
   state.md = await fetch("/MarkdownFiles/"+props.name+".md")
     .then((response) => response.text())
     .then((resp) => DOMPurify.sanitize(marked.parse(resp)))
-    .then((resp) => (resp === null ? "" : resp));
+    .then((resp) => (resp === null ? "" : resp))
+    .then((resp) => state.md = resp)
 }
 onBeforeMount(() => {
   markdownToHtml();
